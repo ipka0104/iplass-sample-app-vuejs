@@ -63,7 +63,7 @@ export const Consts = {
       }
     },
     categoryUrl(categoryId) {
-      return this.path.category + categoryId + '&page='
+      return this.path.category + categoryId
     },
     newInfoUrl() {
       return this.path.newInfo
